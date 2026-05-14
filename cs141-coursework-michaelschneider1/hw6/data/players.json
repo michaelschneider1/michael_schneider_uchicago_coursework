@@ -1,0 +1,1 @@
+[{"level": 3, "class": "MAGE", "inventory": {"wood": 10, "iron": 3, "feathers": 1, "string": 2}}, {"level": 4, "class": "KNIGHT", "inventory": {"wood": 3, "iron": 1, "stone": 5}}, {"level": 1, "class": "THIEF", "inventory": {"wood": 3, "iron": 1}}, {"level": 6, "class": "THIEF", "inventory": {"wood": 3, "iron": 1}}, {"level": 0, "class": "THIEF", "inventory": {"wood": 10}}]
