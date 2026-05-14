@@ -1,4 +1,4 @@
-# CMSC 14200 (Spring 2025)
+# CMSC 14200 (Spring 2025) Coursework
 
 **Language Used:** Python
 
