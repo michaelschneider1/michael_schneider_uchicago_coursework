@@ -1,0 +1,50 @@
+The data source for this data is
+
+  https://github.com/NocturneBear/NBA-Data-2010-2024
+
+The data from the repository named above has been rearranged and
+slightly altered from its original form. More specifically, it has
+been organized into separate files in order to normalize the data and
+eliminate certain redundancies.
+
+Each datafile in this directory can be understood by inspection of the
+file itself, up to a point. Each file contains a header row on its
+first line, which pandas uses for column headers. The fields (column
+names) in these data files are described thoroughly at the github site
+mentioned above. For the purposes of this exercise, we have chosen to
+use fields such as ``personName`` that are
+self-explanatory. Nevertheless, do consult the github site for
+assistance understanding fine points as needed.
+
+Each player in the players file has a distinct name (this is important
+to know for the consistency of some of the analysis); we edited a few
+names to include (actual) middle initials, etc., to enforce
+distinctness.
+
+Here are some comments about each file:
+
+box.csv: These are "box scores", one per row -- they give details of
+how a particular player performed in one game, including, for example,
+how many points were scored and minutes played.
+
+cities.csv: These are the cities each team plays in.
+
+divisions.csv: NBA teams are organized into divisions; this file
+enumerates those.
+
+games.csv: Each row represents a game, including the date on which the
+game was played.
+
+players.csv: This file associates a unique ID number ("personId") with
+each NBA player.
+
+teams.csv: This file associates a "tricode" (a three letter
+abbreviation) with each team, for example "CHI" for the Chicago Bulls
+and 'MIL' for the Milwaukee Bucks.
+
+Please note that a substantial fraction of this data is not needed for
+HW5; you only need to consult some of the data in some of these files
+to perform HW5 tasks.
+
+Please do not rename or change any of the files in this
+directory. Doing so will likely result in test failures.
